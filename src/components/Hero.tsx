@@ -1,5 +1,6 @@
 
 import React from 'react';
+import AnimatedHero from './animations/AnimatedHero';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -11,7 +12,7 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen flex items-center justify-center px-4 py-32">
-      <div className="text-center max-w-4xl mx-auto animate-fade-in">
+      <AnimatedHero>
         <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-300 mb-8 leading-tight">
           Velynt Global - Student & Visa Support Experts
         </h1>
@@ -36,7 +37,7 @@ const Hero = () => {
             Contact Us
           </button>
         </div>
-      </div>
+      </AnimatedHero>
     </section>
   );
 };

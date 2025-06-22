@@ -9,18 +9,40 @@ import Testimonials from '../components/Testimonials';
 import CTA from '../components/CTA';
 import PartnerBadge from '../components/PartnerBadge';
 import Footer from '../components/Footer';
+import RevealOnScroll from '../components/animations/RevealOnScroll';
+import BackgroundGlow from '../components/animations/BackgroundGlow';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-zinc-950">
+    <div className="min-h-screen bg-zinc-950 relative">
+      <BackgroundGlow />
       <Header />
       <Hero />
-      <About />
-      <Services />
-      <WhyChoose />
-      <Testimonials />
-      <CTA />
-      <PartnerBadge />
+      
+      <RevealOnScroll>
+        <About />
+      </RevealOnScroll>
+      
+      <RevealOnScroll delay={0.1}>
+        <Services />
+      </RevealOnScroll>
+      
+      <RevealOnScroll delay={0.2}>
+        <WhyChoose />
+      </RevealOnScroll>
+      
+      <RevealOnScroll delay={0.1}>
+        <Testimonials />
+      </RevealOnScroll>
+      
+      <RevealOnScroll delay={0.2}>
+        <CTA />
+      </RevealOnScroll>
+      
+      <RevealOnScroll delay={0.1}>
+        <PartnerBadge />
+      </RevealOnScroll>
+      
       <Footer />
     </div>
   );
