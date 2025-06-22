@@ -17,7 +17,7 @@ const RevealOnScroll = ({ children, delay = 0, className = "" }: RevealOnScrollP
       transition={{
         duration: 0.6,
         delay,
-        ease: [0.25, 0.25, 0, 1]
+        ease: "easeOut"
       }}
       className={className}
     >
