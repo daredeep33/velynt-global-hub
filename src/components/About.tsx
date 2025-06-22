@@ -12,16 +12,10 @@ const About = () => {
           
           <div className="max-w-4xl mx-auto space-y-6">
             <p className="text-lg text-velynt-text leading-relaxed">
-              At Velynt Global, we understand that pursuing international education or relocating 
-              for professional opportunities can be overwhelming. Our mission is to simplify this 
-              journey by providing personalized, expert guidance every step of the way.
+              Velynt Global is a clarity-driven student and visa support consultancy committed to guiding individuals through every step of their international journey — with precision, preparation, and purpose.
             </p>
-            
             <p className="text-lg text-velynt-text leading-relaxed">
-              With years of experience in student and visa consultancy, our team has successfully 
-              helped thousands of individuals achieve their dreams of studying and working abroad. 
-              We pride ourselves on our commitment to transparency, reliability, and results-driven 
-              approach to every client relationship.
+              From university shortlisting and SOP crafting to Pre-CAS and CAS Shield interview training, complete visa support, and financial documentation compliance, we help you move forward with confidence. We're not just a service — we're your strategic partner, here to simplify the process, strengthen your profile, and walk with you, every step of the way.
             </p>
           </div>
         </div>

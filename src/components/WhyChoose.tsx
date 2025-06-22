@@ -4,14 +4,12 @@ import { Check } from 'lucide-react';
 
 const WhyChoose = () => {
   const reasons = [
-    "Personalized consultation approach",
-    "High success rate with visa applications",
-    "Expert knowledge of international requirements",
-    "Comprehensive support throughout the process",
-    "Transparent pricing with no hidden fees",
-    "Dedicated support team available 24/7",
-    "Strong partnerships with educational institutions",
-    "Post-arrival support services"
+    "1-on-1 expert interview training",
+    "No student poaching — safe for B2B agents",
+    "Transparent pricing, no shortcuts",
+    "Fast, responsive student support",
+    "Visa-compliant document checks & SOPs",
+    "Mobile-first tools and follow-up assistance"
   ];
 
   return (

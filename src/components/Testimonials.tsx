@@ -4,16 +4,24 @@ import React from 'react';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Velynt Global made my dream of studying in Canada a reality. Their guidance through the visa process was exceptional, and I felt supported every step of the way.",
-      author: "Sarah Chen"
+      quote: "Velynt's mock interviews were exactly like the real university ones. I passed my Pre-CAS interview confidently in the first attempt.",
+      author: "Arjun R., UK MSc Applicant"
     },
     {
-      quote: "The mock interview sessions were incredibly helpful. I went into my actual visa interview feeling confident and prepared. Thank you for your professional service!",
-      author: "Raj Patel"
+      quote: "Their SOP writing support and fund guidance helped me avoid a visa refusal. I got my UK visa in 12 days!",
+      author: "Nimisha M., MBA Student, London"
     },
     {
-      quote: "From university applications to visa approval, Velynt Global handled everything with expertise. Their transparent approach and constant communication gave me peace of mind.",
-      author: "Maria Rodriguez"
+      quote: "They helped me structure the visit visa file for my parents in a way that was clear and strong. The visa was approved without any queries.",
+      author: "Elizabeth Iype, UK (Visitor Visa)"
+    },
+    {
+      quote: "The team at Velynt knew exactly what I needed for my PLAB visa — they reviewed everything with such clarity.",
+      author: "Dr. Smyrna., PLAB Candidate"
+    },
+    {
+      quote: "We've worked with Velynt since 2025 — our UK Pre-CAS success rate is 100% since we started using their service.",
+      author: "Nandhini., Amaze Consultant, Tamil Nadu"
     }
   ];
 

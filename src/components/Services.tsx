@@ -4,14 +4,17 @@ import { Check } from 'lucide-react';
 
 const Services = () => {
   const services = [
-    "Student visa applications and guidance",
-    "University application support",
-    "Document preparation and verification",
-    "Mock interview sessions",
-    "Pre-departure orientation programs",
-    "Scholarship and funding guidance",
-    "Work permit applications",
-    "Family visa consultations"
+    "Pre-CAS Interview Training (UK)",
+    "Kira & CAS Shield Video Interview Practice",
+    "Visa Interview Coaching (UK, US, Canada, Australia)",
+    "Faculty Interview Training",
+    "CAS & Visa Financial Compliance Check",
+    "SOP Writing & Review (University & Visa)",
+    "University Shortlisting (UK, USA, Canada, Australia)",
+    "Dependent, Spouse & Family Visa Services",
+    "Visit & Tourist Visa Guidance",
+    "PLAB & OSCE Visa Document Support",
+    "Student Visa Support"
   ];
 
   return (

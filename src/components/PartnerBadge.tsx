@@ -8,8 +8,8 @@ const PartnerBadge = () => {
         <div className="text-center animate-fade-in">
           <div className="inline-block bg-white rounded-full p-8 shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=200&h=200&fit=crop&crop=center" 
-              alt="Partner Logo" 
+              src="/partner-badge.png" 
+              alt="Enroly CAS Shield Certified User Agent" 
               className="w-32 h-32 object-contain"
             />
           </div>

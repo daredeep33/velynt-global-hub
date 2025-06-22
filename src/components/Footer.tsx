@@ -19,20 +19,20 @@ const Footer = () => {
           {/* Contact Details */}
           <div className="mb-8 space-y-2">
             <p className="text-velynt-text">
-              123 Business Avenue, Suite 456
+              Door No. 371, Chemmanam, Padamughal
             </p>
             <p className="text-velynt-text">
-              Global City, GC 78901
+              Kakkanad, Kochi, Kerala 682030
             </p>
             <p className="text-velynt-text">
-              Phone: +1 (555) 123-4567 | +1 (555) 987-6543
+              Phone: +91 89215 75628 | +91 90748 07602
             </p>
           </div>
 
           {/* Social Media Icons */}
           <div className="flex justify-center space-x-6 mb-8">
             <a 
-              href="#" 
+              href="https://www.facebook.com/velyntglobal/" 
               className="text-velynt-text hover:text-velynt-cyan transition-colors duration-200"
               aria-label="Facebook"
             >
@@ -41,7 +41,7 @@ const Footer = () => {
               </svg>
             </a>
             <a 
-              href="#" 
+              href="https://www.instagram.com/velyntglobal/" 
               className="text-velynt-text hover:text-velynt-cyan transition-colors duration-200"
               aria-label="Instagram"
             >
@@ -50,7 +50,7 @@ const Footer = () => {
               </svg>
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/company/velynt-global/" 
               className="text-velynt-text hover:text-velynt-cyan transition-colors duration-200"
               aria-label="LinkedIn"
             >
@@ -64,7 +64,7 @@ const Footer = () => {
           <div className="border-t border-velynt-cyan/20 pt-8">
             <div className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-8">
               <p className="text-velynt-text text-sm">
-                © 2024 Velynt Global. All rights reserved.
+                © {new Date().getFullYear()} Velynt Global. All rights reserved.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-velynt-text hover:text-velynt-cyan text-sm transition-colors duration-200">
