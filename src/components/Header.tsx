@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-velynt-dark/80 backdrop-blur-glass border-b border-velynt-navy/20">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-zinc-950/80 backdrop-blur-glass border-b border-velynt-navy/20">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -47,7 +47,7 @@ const Header = () => {
             </button>
             <button 
               onClick={() => scrollToSection('cta')}
-              className="bg-velynt-navy border border-velynt-cyan text-velynt-white px-6 py-2 rounded-lg hover:bg-velynt-cyan hover:text-velynt-dark transition-all duration-200"
+              className="bg-velynt-navy border border-velynt-cyan text-velynt-white px-6 py-2 rounded-lg hover:bg-velynt-cyan hover:text-velynt-dark hover:scale-105 transition-all duration-200"
             >
               Contact Us
             </button>

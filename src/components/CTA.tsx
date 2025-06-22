@@ -17,7 +17,7 @@ const CTA = () => {
   };
 
   return (
-    <section id="cta" className="py-20 px-4">
+    <section id="cta" className="py-24 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-velynt-white mb-6">
@@ -32,21 +32,21 @@ const CTA = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button 
               onClick={handleWhatsApp}
-              className="bg-whatsapp-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-600 transition-all duration-200 hover:scale-105"
+              className="bg-whatsapp-green text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-600 hover:scale-105 transition-all duration-200"
             >
               Chat on WhatsApp
             </button>
             
             <button 
               onClick={handleBookMock}
-              className="bg-velynt-navy border border-velynt-cyan text-velynt-white px-8 py-4 rounded-lg font-semibold hover:bg-velynt-cyan hover:text-velynt-dark transition-all duration-200 hover:scale-105"
+              className="bg-velynt-navy border border-velynt-cyan text-velynt-white px-8 py-4 rounded-lg font-semibold hover:bg-velynt-cyan hover:text-velynt-dark hover:scale-105 transition-all duration-200"
             >
               Book Your First Mock
             </button>
             
             <button 
               onClick={handleChecklist}
-              className="bg-gray-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-500 transition-all duration-200 hover:scale-105"
+              className="bg-gray-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-500 hover:scale-105 transition-all duration-200"
             >
               Free CAS Interview Checklist
             </button>
