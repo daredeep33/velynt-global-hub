@@ -19,10 +19,6 @@ const Index = () => {
       <Header />
       <Hero />
       
-      <RevealOnScroll>
-        <About />
-      </RevealOnScroll>
-      
       <RevealOnScroll delay={0.1}>
         <Services />
       </RevealOnScroll>

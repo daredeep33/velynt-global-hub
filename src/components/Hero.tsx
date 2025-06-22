@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import React from 'react';
 import AnimatedHero from './animations/AnimatedHero';
 
@@ -23,19 +23,21 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button 
-            onClick={() => scrollToSection('cta')}
+          <a 
+            href="https://calendly.com/deepakdinesh330/30min" 
+            target="_blank" 
+            rel="noopener noreferrer"
             className="bg-velynt-navy border border-velynt-cyan text-velynt-white px-8 py-4 rounded-lg font-semibold hover:bg-velynt-cyan hover:text-velynt-dark hover:scale-105 transition-all duration-200"
           >
             Book Your First Mock Session
-          </button>
+          </a>
           
-          <button 
-            onClick={() => scrollToSection('cta')}
-            className="border border-velynt-cyan text-velynt-cyan px-8 py-4 rounded-lg font-semibold hover:bg-velynt-cyan hover:text-velynt-dark hover:scale-105 transition-all duration-200"
-          >
-            Contact Us
-          </button>
+      <Link 
+  to="/contact"
+  className="border border-velynt-cyan text-velynt-cyan px-8 py-4 rounded-lg font-semibold hover:bg-velynt-cyan hover:text-velynt-dark hover:scale-105 transition-all duration-200"
+>
+  Contact Us
+</Link>
         </div>
       </AnimatedHero>
     </section>
