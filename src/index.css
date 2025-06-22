@@ -104,3 +104,26 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
+
+/* Custom blog post typography */
+@layer components {
+  .prose h2 {
+    @apply text-2xl font-bold text-velynt-white mt-8 mb-4;
+  }
+  
+  .prose p {
+    @apply mb-6;
+  }
+  
+  .prose ul {
+    @apply list-disc list-inside space-y-2 mb-6;
+  }
+  
+  .prose li {
+    @apply text-velynt-text;
+  }
+  
+  .prose strong {
+    @apply text-velynt-white font-semibold;
+  }
+}
